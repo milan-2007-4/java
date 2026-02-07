@@ -1,0 +1,10 @@
+//assert keyword in java
+class Assert
+{
+	public static void main(String[] args)
+	{
+		int value=5;
+		assert value>=10: "under" ;
+		System.out.println("value is = "+value);
+	}
+}
